@@ -17,7 +17,7 @@ namespace DemoFunction
         }
 
         [Function("Demo")]
-        public <HttpResponseData Run(
+        public HttpResponseData Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get")] 
             HttpRequestData req)
         {
